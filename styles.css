@@ -1,0 +1,117 @@
+/* Reset some default styles */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  background-color: rgb(126, 42, 165);
+}
+
+header,
+footer {
+  
+  background-color: antiquewhite;
+}
+
+header h1 {   /* Books Numbers */
+    margin: 0;
+    padding: 0;
+    color: #190505;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav ul {   /* צור קשר ,דף ראשי */
+    list-style-type: none;
+    text-align: center;
+   
+ }  
+
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    
+}
+
+nav ul li a { /* צור קשר ,דף ראשי color , size*/
+    text-decoration: none;
+    color: #963698b3;
+    font-size: 20px;
+}
+
+nav ul li a:hover { /* צור קשר ,דף ראשי hover*/
+    color: #ef0d0d;
+        font-size: 20px;
+
+}
+
+main {
+    padding: 80px;
+}
+
+#contacts {
+    background-color: #f6f6f6;
+    padding: 10px;
+   
+    
+}
+
+
+.contacts-list {
+    flex-wrap: wrap;
+    justify-content:space-between;
+  text-align:left;
+font-size: 1.8rem;
+  color: #ffffff;
+
+padding-bottom: 2.5rem;
+  border: 8px solid #963698b3;
+
+margin-bottom: 4rem;  /* #After between nav3 */
+}
+
+.contact {
+   
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.contact-details {
+    text-align: left;
+    margin: auto;
+}
+
+.contact-details h3 { /* Name Person */
+    margin-bottom: 1px;
+    margin-top: 9px;
+    font-size: 2rem;
+    color: #bd1616;
+}
+
+.contact-details p { /* Number */
+    color: #e60a0a;
+    font-size: 1.5rem;
+    margin-top: 3px;
+    margin-bottom: 9px;
+}
+
+footer {
+    background-color: antiquewhite;
+    color: #0f0101;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
